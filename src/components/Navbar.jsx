@@ -6,8 +6,8 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     }, [menuOpen]);
     return (
         <nav className="absolute top-0 w-full z-10">
-            <div className="max-w-5xl mx-auto px-4">
-                <div className="flex justify-between items-center h-16">
+            <div className="max-w-7xl mx-auto px-4">
+                <div className="flex justify-between items-center h-24">
                     <a
                         href="#about"
                         className="font-extrabold text-[24px] text-[#F43F5E] font-inter"
@@ -21,31 +21,31 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                         &#9776;
                     </div>
 
-                    <div className="hidden md:flex items-center space-x-8 ">
+                    <div className="hidden md:flex items-center space-x-16 ">
                         <a
                             href="about"
-                            className="text-[#F43F5E] hove:text-white transition-colors"
+                            className="text-[#F43F5E] hover:text-white transition-colors"
                         >
                             About
                         </a>
 
                         <a
                             href="skills"
-                            className="text-[#F43F5E] hove:text-white transition-colors"
+                            className="text-[#F43F5E] hover:text-white transition-colors"
                         >
                             Skills
                         </a>
 
                         <a
                             href="projects"
-                            className="text-[#F43F5E] hove:text-white transition-colors"
+                            className="text-[#F43F5E] hover:text-white transition-colors"
                         >
                             Projects
                         </a>
 
                         <a
                             href="contact"
-                            className="text-[#F43F5E] hove:text-white transition-colors"
+                            className="text-[#F43F5E] hover:text-white transition-colors"
                         >
                             Contact
                         </a>
