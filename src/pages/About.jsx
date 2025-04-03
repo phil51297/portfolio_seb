@@ -36,7 +36,10 @@ export const About = () => {
                         >
                             <img src="/assets/linkedin.svg" alt="Icon" />
                         </a>
-                        <a className="transition relative overflow-hidden hover:-translate-y-0.5 cursor-pointer">
+                        <a
+                            href="mailto:sebastien.bonnafous.pro@gmail.com"
+                            className="transition relative overflow-hidden hover:-translate-y-0.5 cursor-pointer"
+                        >
                             <img src="/assets/email.svg" alt="Icon" />
                         </a>
                     </div>

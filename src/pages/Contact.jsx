@@ -70,7 +70,7 @@ export const Contact = () => {
                         </div>
                         <button
                             type="submit"
-                            className="w-full bg-[#F43F5E] text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_10px_3px_rgba(244,63,94,0.4)]"
+                            className="w-full bg-[#F43F5E] text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_10px_3px_rgba(244,63,94,0.4)] cursor-pointer"
                         >
                             Send Message
                         </button>
