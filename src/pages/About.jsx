@@ -8,11 +8,13 @@ export const About = () => {
                 className="min-h-screen flex justify-start relative pt-60"
             >
                 <div className="max-w-7xl w-full mx-auto z-5 px-4">
-                    <h2 className="text-3xl font-medium">Hello, Its Me</h2>
-                    <h1 className="text-7xl font-extrabold break-words font-[Poppins] mt-4">
+                    <h2 className="text-2xl sm:text-3xl font-medium">
+                        Hello, Its Me
+                    </h2>
+                    <h1 className="text-5xl sm:text-7xl font-extrabold font-[Poppins] mt-4">
                         Sebastien Bonnafous
                     </h1>
-                    <h2 className="text-3xl font-medium mt-4">
+                    <h2 className="text-2xl sm:text-3xl font-medium mt-4">
                         I'm a{' '}
                         <span className="text-[#F43F5E]">
                             Marketer & Designer
