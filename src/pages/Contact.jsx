@@ -4,7 +4,7 @@ export const Contact = () => {
     return (
         <RevealOnScroll>
             <section
-                id="contacts"
+                id="contact"
                 className="min-h-screen flex justify-center py-20"
             >
                 <div className="px-4 w-full max-w-3xl">
