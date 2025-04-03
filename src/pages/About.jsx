@@ -9,7 +9,7 @@ export const About = () => {
             >
                 <div className="max-w-7xl w-full mx-auto z-5 px-4">
                     <h2 className="text-3xl font-medium">Hello, Its Me</h2>
-                    <h1 className="text-7xl font-extrabold font-[Poppins] mt-4">
+                    <h1 className="text-7xl font-extrabold break-words font-[Poppins] mt-4">
                         Sebastien Bonnafous
                     </h1>
                     <h2 className="text-3xl font-medium mt-4">
@@ -46,7 +46,7 @@ export const About = () => {
                     <img
                         src="/assets/qrcode.svg"
                         alt="QR Code"
-                        className="mx-auto mt-[-140px] ml-80"
+                        className="mx-auto mt-[-140px] ml-80 hidden sm:block"
                     />
                 </div>
             </section>

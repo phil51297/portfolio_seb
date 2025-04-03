@@ -11,7 +11,7 @@ export const Contact = () => {
                     <h2 className="text-4xl text-center font-extrabold font-[Poppins]">
                         Contact <span className="text-[#F43F5E]">Me</span>
                     </h2>
-                    <form className="w-full mt-16">
+                    <form className="w-full mt-20">
                         <div className="flex gap-4 mb-6">
                             <div className="relative flex-1">
                                 <input
