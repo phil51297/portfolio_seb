@@ -19,7 +19,7 @@ export const Contact = () => {
                                     id="firstname"
                                     name="firstname"
                                     required
-                                    className="w-full bg-white/5 border border-white/10 bg-[#1E1E1E] rounded-[10px] text-white transition px-4 py-3 focus:outline-none focus:border-red-400"
+                                    className="w-full bg-white/5 border border-white/10 bg-[#1E1E1E] rounded-[10px] text-white transition px-4 py-3 focus:outline-none focus:border-red-400 no-particles-section-contact"
                                     placeholder="First Name"
                                 />
                             </div>
@@ -29,7 +29,7 @@ export const Contact = () => {
                                     id="lastname"
                                     name="lastname"
                                     required
-                                    className="w-full bg-white/5 border border-white/10 bg-[#1E1E1E] rounded-[10px] text-white transition px-4 py-3 focus:outline-none focus:border-red-400"
+                                    className="w-full bg-white/5 border border-white/10 bg-[#1E1E1E] rounded-[10px] text-white transition px-4 py-3 focus:outline-none focus:border-red-400 no-particles-section-contact"
                                     placeholder="Last Name"
                                 />
                             </div>
@@ -42,7 +42,7 @@ export const Contact = () => {
                                     id="mobile"
                                     name="mobile"
                                     required
-                                    className="w-full bg-white/5 border border-white/10 bg-[#1E1E1E] rounded-[10px] text-white transition px-4 py-3 focus:outline-none focus:border-red-400"
+                                    className="w-full bg-white/5 border border-white/10 bg-[#1E1E1E] rounded-[10px] text-white transition px-4 py-3 focus:outline-none focus:border-red-400 no-particles-section-contact"
                                     placeholder="Mobile Number"
                                 />
                             </div>
@@ -52,7 +52,7 @@ export const Contact = () => {
                                     id="email"
                                     name="email"
                                     required
-                                    className="w-full bg-white/5 border border-white/10 bg-[#1E1E1E] rounded-[10px] text-white transition px-4 py-3 focus:outline-none focus:border-red-400"
+                                    className="w-full bg-white/5 border border-white/10 bg-[#1E1E1E] rounded-[10px] text-white transition px-4 py-3 focus:outline-none focus:border-red-400 no-particles-section-contact"
                                     placeholder="Email Address"
                                 />
                             </div>
@@ -64,7 +64,7 @@ export const Contact = () => {
                                 name="message"
                                 required
                                 rows="6"
-                                className="w-full bg-white/5 border border-white/10 bg-[#1E1E1E] rounded-[10px] text-white transition px-4 py-3 focus:outline-none focus:border-red-400"
+                                className="w-full bg-white/5 border border-white/10 bg-[#1E1E1E] rounded-[10px] text-white transition px-4 py-3 focus:outline-none focus:border-red-400 no-particles-section-contact"
                                 placeholder="Your Message"
                             ></textarea>
                         </div>
