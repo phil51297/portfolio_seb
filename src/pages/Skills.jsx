@@ -12,7 +12,7 @@ export const Skills = () => {
                         My <span className="text-[#F43F5E]">Skills</span>
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
-                        <div className="rounded-[25px] relative overflow-hidden group hover:-translate-y-1 transition-all no-particles-section">
+                        <div className="w-full max-w-[395px] mx-auto rounded-[25px] relative overflow-hidden group hover:-translate-y-1 transition-all no-particles-section">
                             <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(30,30,30,0.665)_39.67%,rgba(51,33,36,0.63)_49.67%,rgba(110,42,54,0.56)_66.17%,rgba(191,55,78,0.49)_79.67%,rgba(218,59,86,0.56)_96.17%,rgba(244,63,94,0.63)_100%)] rounded-[25px]"></div>
                             <div className="p-10 pb-14 rounded-[25px] border border-[#91111180] relative z-10 h-full flex flex-col">
                                 <img
@@ -38,7 +38,7 @@ export const Skills = () => {
                             </div>
                         </div>
 
-                        <div className="rounded-[25px] relative overflow-hidden group hover:-translate-y-1 transition-all no-particles-section">
+                        <div className="w-full max-w-[395px] mx-auto rounded-[25px] relative overflow-hidden group hover:-translate-y-1 transition-all no-particles-section">
                             <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(30,30,30,0.665)_39.67%,rgba(51,33,36,0.63)_49.67%,rgba(110,42,54,0.56)_66.17%,rgba(191,55,78,0.49)_79.67%,rgba(218,59,86,0.56)_96.17%,rgba(244,63,94,0.63)_100%)] rounded-[25px]"></div>
                             <div className="p-10 pb-14 rounded-[25px] border border-[#91111180] relative z-10 h-full flex flex-col">
                                 <img
@@ -64,7 +64,7 @@ export const Skills = () => {
                             </div>
                         </div>
 
-                        <div className="rounded-[25px] relative overflow-hidden group hover:-translate-y-1 transition-all no-particles-section">
+                        <div className="w-full max-w-[395px] mx-auto rounded-[25px] relative overflow-hidden group hover:-translate-y-1 transition-all no-particles-section">
                             <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(30,30,30,0.665)_39.67%,rgba(51,33,36,0.63)_49.67%,rgba(110,42,54,0.56)_66.17%,rgba(191,55,78,0.49)_79.67%,rgba(218,59,86,0.56)_96.17%,rgba(244,63,94,0.63)_100%)] rounded-[25px]"></div>
                             <div className="p-10 pb-14 rounded-[25px] border border-[#91111180] relative z-10 h-full flex flex-col">
                                 <img

@@ -12,21 +12,21 @@ export const Projects = () => {
                         Our <span className="text-[#F43F5E]">Projects</span>
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-40">
-                        <div className="rounded-[15px] relative overflow-hidden group hover:-translate-y-1 transition-all">
+                        <div className="w-full max-w-[395px] mx-auto rounded-[15px] relative overflow-hidden group hover:-translate-y-1 transition-all">
                             <div className="p-20 pb-14 bg-[#12121299] shadow-md relative z-10 h-full flex flex-col items-center">
                                 <h3 className="text-2xl text-center font-bold mb-8">
                                     Sales Navigator Automation
                                 </h3>
                             </div>
                         </div>
-                        <div className="rounded-[15px] relative overflow-hidden group hover:-translate-y-1 transition-all">
+                        <div className="w-full max-w-[395px] mx-auto rounded-[15px] relative overflow-hidden group hover:-translate-y-1 transition-all">
                             <div className="p-20 pb-14 bg-[#12121299] shadow-md  relative z-10 h-full flex flex-col items-center">
                                 <h3 className="text-2xl text-center font-bold mb-8">
                                     Leads Process
                                 </h3>
                             </div>
                         </div>
-                        <div className="rounded-[15px] relative overflow-hidden group hover:-translate-y-1 transition-all">
+                        <div className="w-full max-w-[395px] mx-auto rounded-[15px] relative overflow-hidden group hover:-translate-y-1 transition-all">
                             <div className="p-20 pb-14 bg-[#12121299] shadow-md  relative z-10 h-full flex flex-col items-center">
                                 <h3 className="text-2xl text-center font-bold mb-8">
                                     Personalized Training

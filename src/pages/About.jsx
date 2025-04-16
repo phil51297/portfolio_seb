@@ -2,7 +2,6 @@ import { RevealOnScroll } from '../components/RevealOnScroll';
 
 export const About = () => {
     return (
-        <>
             <RevealOnScroll>
                 <section
                     id="about"
@@ -57,6 +56,5 @@ export const About = () => {
                     </div>
                 </section>
             </RevealOnScroll>
-        </>
     );
 };
