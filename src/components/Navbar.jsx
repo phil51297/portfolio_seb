@@ -24,28 +24,32 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                     <div className="hidden md:flex items-center space-x-16 ">
                         <a
                             href="#about"
-                            className="text-[#F43F5E] hover:text-white transition-colors"
+                            className="text-white hover:text-[#F43F5E]
+ transition-colors"
                         >
                             About
                         </a>
 
                         <a
                             href="#skills"
-                            className="text-[#F43F5E] hover:text-white transition-colors"
+                            className="text-white hover:text-[#F43F5E]
+ transition-colors"
                         >
                             Skills
                         </a>
 
                         <a
                             href="#projects"
-                            className="text-[#F43F5E] hover:text-white transition-colors"
+                            className="text-white hover:text-[#F43F5E]
+ transition-colors"
                         >
                             Projects
                         </a>
 
                         <a
                             href="#contact"
-                            className="text-[#F43F5E] hover:text-white transition-colors"
+                            className="text-white hover:text-[#F43F5E]
+ transition-colors"
                         >
                             Contact
                         </a>
