@@ -11,7 +11,7 @@ export const About = () => {
                     <h2 className="text-2xl sm:text-3xl font-medium">
                         Hello, Its Me
                     </h2>
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold font-[Poppins] mt-4">
+                    <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold font-[Poppins] mt-4">
                         Sebastien Bonnafous
                     </h1>
                     <h2 className="text-2xl sm:text-3xl font-medium mt-4">
