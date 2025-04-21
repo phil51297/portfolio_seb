@@ -7,12 +7,12 @@ export const Contact = () => {
                 id="contact"
                 className="min-h-screen flex justify-center py-20"
             >
-                <div className="px-4 w-full max-w-3xl">
+                <div className="px-4 w-full max-w-3xl mt-4">
                     <h2 className="text-4xl text-center font-extrabold font-[Poppins]">
                         Contact <span className="text-[#F43F5E]">Me</span>
                     </h2>
                     <form className="w-full mt-20">
-                        <div className="flex gap-4 mb-6">
+                        <div className="flex gap-4">
                             <div className="relative flex-1">
                                 <input
                                     type="text"
@@ -35,7 +35,7 @@ export const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="flex gap-4 mb-6">
+                        <div className="flex gap-4 mt-6">
                             <div className="relative flex-1">
                                 <input
                                     type="tel"
@@ -58,7 +58,7 @@ export const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="relative mb-6">
+                        <div className="relative mt-6">
                             <textarea
                                 id="message"
                                 name="message"
@@ -70,7 +70,7 @@ export const Contact = () => {
                         </div>
                         <button
                             type="submit"
-                            className="w-full bg-[#F43F5E] text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_10px_3px_rgba(244,63,94,0.4)] cursor-pointer"
+                            className="w-full mt-12 bg-[#F43F5E] text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_10px_3px_rgba(244,63,94,0.4)] cursor-pointer"
                         >
                             Send Message
                         </button>

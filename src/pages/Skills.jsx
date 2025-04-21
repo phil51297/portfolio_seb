@@ -7,7 +7,7 @@ export const Skills = () => {
                 id="skills"
                 className="min-h-screen flex justify-center py-20 "
             >
-                <div className="w-11/12 max-w-7xl mx-auto px-4">
+                <div className="w-11/12 max-w-7xl mx-auto px-4 mt-4">
                     <h2 className="text-4xl text-center font-extrabold font-[Poppins]">
                         My <span className="text-[#F43F5E]">Skills</span>
                     </h2>

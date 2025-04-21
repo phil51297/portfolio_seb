@@ -7,7 +7,7 @@ export const Projects = () => {
                 id="projects"
                 className="min-h-screen flex justify-center py-20 bg-gradient-to-b from-[#1E1E1E7D] via-[#39222664] to-[#F43F5E56] shadow-md"
             >
-                <div className="w-11/12 max-w-7xl mx-auto px-4">
+                <div className="w-11/12 max-w-7xl mx-auto px-4 mt-4">
                     <h2 className="text-4xl text-center font-extrabold font-[Poppins]">
                         Our <span className="text-[#F43F5E]">Projects</span>
                     </h2>
