@@ -1,23 +1,25 @@
 import { RevealOnScroll } from '../components/RevealOnScroll';
+import React from 'react';
 
 export const Skills = () => {
     return (
         <RevealOnScroll>
             <section
                 id="skills"
-                className="min-h-screen flex justify-center py-20 "
+                className="min-h-screen flex justify-center py-20"
             >
                 <div className="w-11/12 max-w-7xl mx-auto px-4 mt-4">
                     <h2 className="text-4xl text-center font-extrabold font-[Poppins]">
                         My <span className="text-[#F43F5E]">Skills</span>
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
-                        <div className="w-full max-w-[395px] min-h-[498px] mx-auto rounded-[25px] relative overflow-hidden group hover:-translate-y-1 transition-all no-particles-section">
+                        <div className="w-full max-w-[395px] min-h-[498px] mx-auto rounded-[25px] relative overflow-hidden group hover:-translate-y-2 hover:rotate-1 transition-all duration-300 ease-out no-particles-section transform-gpu">
                             <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(30,30,30,0.665)_39.67%,rgba(51,33,36,0.63)_49.67%,rgba(110,42,54,0.56)_66.17%,rgba(191,55,78,0.49)_79.67%,rgba(218,59,86,0.56)_96.17%,rgba(244,63,94,0.63)_100%)] rounded-[25px]"></div>
-                            <div className="p-10 pb-14 rounded-[25px] border border-[#91111180] relative z-10 h-full flex flex-col">
+                            <div className="p-10 pb-14 rounded-[25px] border border-[#91111180] relative z-10 h-full flex flex-col shadow-lg group-hover:shadow-xl">
                                 <img
                                     src="/assets/design.svg"
-                                    className="mx-auto mb-6"
+                                    className="mx-auto mb-6 transform group-hover:scale-110 transition-transform duration-300"
+                                    alt="Design"
                                 ></img>
                                 <h3 className="text-3xl text-center font-extrabold mb-8">
                                     Design
@@ -38,12 +40,13 @@ export const Skills = () => {
                             </div>
                         </div>
 
-                        <div className="w-full max-w-[395px] min-h-[498px] mx-auto rounded-[25px] relative overflow-hidden group hover:-translate-y-1 transition-all no-particles-section">
+                        <div className="w-full max-w-[395px] min-h-[498px] mx-auto rounded-[25px] relative overflow-hidden group hover:-translate-y-2 hover:rotate-1 transition-all duration-300 ease-out no-particles-section transform-gpu">
                             <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(30,30,30,0.665)_39.67%,rgba(51,33,36,0.63)_49.67%,rgba(110,42,54,0.56)_66.17%,rgba(191,55,78,0.49)_79.67%,rgba(218,59,86,0.56)_96.17%,rgba(244,63,94,0.63)_100%)] rounded-[25px]"></div>
-                            <div className="p-10 pb-14 rounded-[25px] border border-[#91111180] relative z-10 h-full flex flex-col">
+                            <div className="p-10 pb-14 rounded-[25px] border border-[#91111180] relative z-10 h-full flex flex-col shadow-lg group-hover:shadow-xl">
                                 <img
                                     src="/assets/hardskills.svg"
-                                    className="mx-auto mb-6"
+                                    className="mx-auto mb-6 transform group-hover:scale-110 transition-transform duration-300"
+                                    alt="Hard Skills"
                                 ></img>
                                 <h3 className="text-3xl text-center font-extrabold mb-8">
                                     Hard Skills
@@ -64,12 +67,13 @@ export const Skills = () => {
                             </div>
                         </div>
 
-                        <div className="w-full max-w-[395px] min-h-[498px] mx-auto rounded-[25px] relative overflow-hidden group hover:-translate-y-1 transition-all no-particles-section">
+                        <div className="w-full max-w-[395px] min-h-[498px] mx-auto rounded-[25px] relative overflow-hidden group hover:-translate-y-2 hover:rotate-1 transition-all duration-300 ease-out no-particles-section transform-gpu">
                             <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(30,30,30,0.665)_39.67%,rgba(51,33,36,0.63)_49.67%,rgba(110,42,54,0.56)_66.17%,rgba(191,55,78,0.49)_79.67%,rgba(218,59,86,0.56)_96.17%,rgba(244,63,94,0.63)_100%)] rounded-[25px]"></div>
-                            <div className="p-10 pb-14 rounded-[25px] border border-[#91111180] relative z-10 h-full flex flex-col">
+                            <div className="p-10 pb-14 rounded-[25px] border border-[#91111180] relative z-10 h-full flex flex-col shadow-lg group-hover:shadow-xl">
                                 <img
                                     src="/assets/softskills.svg"
-                                    className="mx-auto mb-6"
+                                    className="mx-auto mb-6 transform group-hover:scale-110 transition-transform duration-300"
+                                    alt="Soft Skills"
                                 ></img>
                                 <h3 className="text-3xl text-center font-extrabold mb-8">
                                     Soft Skills
