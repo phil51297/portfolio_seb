@@ -5,7 +5,7 @@ export const Contact = () => {
         <RevealOnScroll>
             <section
                 id="contact"
-                className="min-h-screen flex justify-center py-20"
+                className="min-h-screen flex justify-center py-25"
             >
                 <div className="px-4 w-full max-w-3xl mt-4">
                     <h2 className="text-4xl text-center font-extrabold font-[Poppins]">
