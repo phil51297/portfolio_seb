@@ -43,7 +43,7 @@ export const QRCodeWithZoom = ({ qrCodeSrc, isZoomed, setIsZoomed }) => {
                     <div className="absolute inset-0 flex items-center justify-center">
                         <button
                             onClick={handleZoomClick}
-                            className="bg-[#F43F5E] bg-opacity-70 backdrop-blur-sm py-2 px-4 text-white font-medium font-[Poppins] rounded-lg shadow-md hover:bg-opacity-90 transition hover:-translate-y-0.5"
+                            className="bg-[#34343d] bg-opacity-70 backdrop-blur-sm py-2 px-4 text-white font-medium font-[Poppins] rounded-lg shadow-md hover:bg-opacity-90 transition hover:-translate-y-0.5"
                         >
                             View QR
                         </button>
