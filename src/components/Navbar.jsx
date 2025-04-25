@@ -12,7 +12,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                         href="#about"
                         className="font-extrabold text-[24px] text-[#F43F5E] font-inter"
                     >
-                        Sebastien Bonnafous
+                        Portfolio
                     </a>
                     <div
                         className="w-7 h-5 relative cursor-pointer z-10 md:hidden"
