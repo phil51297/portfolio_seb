@@ -67,8 +67,12 @@ export const Skills = () => {
                             : {};
 
                         const scaleClass = isHovered
-                            ? `md:scale-${isMiddle ? '[1.13]' : '[1.0]'} scale-[1.13]`
-                            : `md:scale-${isMiddle ? '[1.05]' : '[0.95]'} scale-100`;
+                            ? isMiddle
+                                ? 'md:scale-[1.13] scale-[1.13]'
+                                : 'md:scale-[1.0] scale-[1.13]'
+                            : isMiddle
+                              ? 'md:scale-[1.05] scale-100'
+                              : 'md:scale-[0.95] scale-100';
 
                         return (
                             <div
