@@ -8,42 +8,76 @@ export const Skills = () => {
             title: 'Design',
             icon: '/assets/design.svg',
             skills: [
-                'Photoshop',
-                'Procreate',
-                'Fresco',
-                'Canva',
-                'Figma',
-                'Acrobat Pro',
-                'Illustrator',
-                'Premier Pro',
-                'InDesign',
+                { name: 'Photoshop', icon: '/assets/skills/photoshop.svg' },
+                { name: 'Illustrator', icon: '/assets/skills/illustrator.svg' },
+                { name: 'InDesign', icon: '/assets/skills/indesign.svg' },
+                { name: 'Premier Pro', icon: '/assets/skills/premierpro.svg' },
+                { name: 'Fresco', icon: '/assets/skills/fresco.svg' },
+                { name: 'Acrobat Pro', icon: '/assets/skills/acrobatpro.svg' },
+                { name: 'Procreate', icon: '/assets/skills/procreate.svg' },
+                { name: 'Figma', icon: '/assets/skills/figma.svg' },
+                { name: 'Canva', icon: '/assets/skills/canva.svg' },
             ],
+            extraSkills: [],
         },
         {
             title: 'Hard Skills',
             icon: '/assets/hardskills.svg',
             skills: [
-                'Adobe Creative Cloud',
-                'SharePoint',
-                'Microsoft 365',
-                'SalesForce',
-                'SAP',
-                'Hubspot',
-                'Sales Navigator',
-                'MARCOM tools',
-                'Lead management',
+                {
+                    name: 'Creative Cloud',
+                    icon: '/assets/skills/creativecloud.svg',
+                },
+                { name: 'SharePoint', icon: '/assets/skills/sharepoint.svg' },
+                {
+                    name: 'Sales Navigator',
+                    icon: '/assets/skills/salesnavigator.svg',
+                },
+                { name: 'Salesforce', icon: '/assets/skills/salesforce.svg' },
+                {
+                    name: 'Microsoft 365',
+                    icon: '/assets/skills/microsoft365.svg',
+                },
+                { name: 'SAP', icon: '/assets/skills/sap.svg' },
+            ],
+            extraSkills: [
+                { name: 'MARCOM tools', icon: '/assets/skills/marcom.svg' },
+                {
+                    name: 'Lead management',
+                    icon: '/assets/skills/leadmanagement.svg',
+                },
             ],
         },
         {
             title: 'Soft Skills',
             icon: '/assets/softskills.svg',
             skills: [
-                'Management',
-                'Autonomy',
-                'Training',
-                'Cooperativity',
-                'Team spirit',
+                { name: 'Management', icon: '/assets/skills/management.svg' },
+                { name: 'Autonomy', icon: '/assets/skills/autonomy.svg' },
+                {
+                    name: 'Learning agility',
+                    icon: '/assets/skills/learning.svg',
+                },
+                {
+                    name: 'Cooperativity',
+                    icon: '/assets/skills/cooperativity.svg',
+                },
+                { name: 'Training', icon: '/assets/skills/training.svg' },
+                {
+                    name: 'Adaptability',
+                    icon: '/assets/skills/adaptability.svg',
+                },
+                {
+                    name: 'Critical thinking',
+                    icon: '/assets/skills/critical.svg',
+                },
+                {
+                    name: 'Innovative mindset',
+                    icon: '/assets/skills/innovative.svg',
+                },
+                { name: 'Creativity', icon: '/assets/skills/creativity.svg' },
             ],
+            extraSkills: [],
         },
     ];
 
@@ -68,7 +102,7 @@ export const Skills = () => {
 
                         const scaleClass = isHovered
                             ? isMiddle
-                                ? 'md:scale-[1.13] scale-[1.13]'
+                                ? 'scale-[1.13]'
                                 : 'md:scale-[1.0] scale-[1.13]'
                             : isMiddle
                               ? 'md:scale-[1.05] scale-100'
@@ -78,13 +112,13 @@ export const Skills = () => {
                             <div
                                 key={index}
                                 className={`w-full max-w-[395px] min-h-[470px] mx-auto
-                                        ${index === 0 ? 'md:mr-[-30px]' : ''}
-                                        ${index === 2 ? 'md:ml-[-30px]' : ''}
-                                        ${scaleClass}
-                                        transition-transform duration-300 ease-out transform-gpu
-                                        relative rounded-[25px] overflow-hidden
-                                        ${isHovered ? 'z-10' : index === 1 ? 'z-[5]' : 'z-0'}
-                                    `}
+                                    ${index === 0 ? 'md:mr-[-30px]' : ''}
+                                    ${index === 2 ? 'md:ml-[-30px]' : ''}
+                                    ${scaleClass}
+                                    transition-transform duration-300 ease-out transform-gpu
+                                    relative rounded-[25px] overflow-hidden
+                                    ${isHovered ? 'z-10' : isMiddle ? 'z-[5]' : 'z-0'}
+                                `}
                                 style={shadowStyle}
                                 onMouseEnter={() => setHoveredIndex(index)}
                                 onMouseLeave={() => setHoveredIndex(null)}
@@ -96,31 +130,63 @@ export const Skills = () => {
                                         isHovered
                                             ? 'border border-[#911111]'
                                             : ''
-                                    } z-10 flex flex-col p-10 pb-14`}
+                                    } z-10 flex flex-col p-6 pb-8`}
                                 >
                                     <img
                                         src={card.icon}
-                                        className={`mx-auto mb-6 transition-transform duration-300 ${
+                                        className={`mx-auto mb-4 transition-transform duration-300 ${
                                             isHovered
                                                 ? 'scale-125'
                                                 : 'scale-100'
                                         }`}
                                         alt={card.title}
                                     />
-                                    <h3 className="text-3xl text-center font-extrabold mb-8">
+                                    <h3 className="text-3xl text-center font-extrabold mb-6">
                                         {card.title}
                                     </h3>
-                                    <div className="flex justify-center">
-                                        <ul className="space-y-1 text-left text-gray-300 font-[Roboto]">
-                                            {card.skills.map(
+
+                                    <div className="grid grid-cols-3 gap-4 mt-2">
+                                        {card.skills.map(
+                                            (skill, skillIndex) => (
+                                                <div
+                                                    key={skillIndex}
+                                                    className="flex flex-col items-center"
+                                                >
+                                                    <img
+                                                        src={skill.icon}
+                                                        alt={skill.name}
+                                                        className="w-14 h-14 object-contain mb-2"
+                                                    />
+                                                    <span className="text-center text-xs text-gray-300">
+                                                        {skill.name}
+                                                    </span>
+                                                </div>
+                                            )
+                                        )}
+                                    </div>
+
+                                    {/* Extra skills (MARCOM and Lead management) */}
+                                    {card.extraSkills.length > 0 && (
+                                        <div className="flex justify-center gap-8 mt-2 lg:mt-6">
+                                            {card.extraSkills.map(
                                                 (skill, skillIndex) => (
-                                                    <li key={skillIndex}>
-                                                        {skill}
-                                                    </li>
+                                                    <div
+                                                        key={skillIndex}
+                                                        className="flex flex-col items-center"
+                                                    >
+                                                        <img
+                                                            src={skill.icon}
+                                                            alt={skill.name}
+                                                            className="w-14 h-14 object-contain mb-2"
+                                                        />
+                                                        <span className="text-center text-xs text-gray-300">
+                                                            {skill.name}
+                                                        </span>
+                                                    </div>
                                                 )
                                             )}
-                                        </ul>
-                                    </div>
+                                        </div>
+                                    )}
                                 </div>
                             </div>
                         );
