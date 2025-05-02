@@ -145,7 +145,7 @@ export const Skills = () => {
                                         {card.title}
                                     </h3>
 
-                                    <div className="grid grid-cols-3 gap-4 mt-2">
+                                    <div className="grid grid-cols-3 gap-x-1 gap-y-4 mt-2">
                                         {card.skills.map(
                                             (skill, skillIndex) => (
                                                 <div
