@@ -66,7 +66,7 @@ export const About = () => {
                     <div className="flex justify-start mt-12 max-w-3xs">
                         <a className="bg-[#F43F5E] py-2 px-5 text-white font-bold font-[Poppins] rounded-lg shadow-md hover:shadow-red-400 hover:shadow-[0_0_10px_3px] transition hover:-translate-y-0.5 cursor-pointer"
                         href='/assets/files/cvseb.pdf'
-                        download='cvseb.pdf'>
+                        download='CV_Sebastien_Bonnafous.pdf'>
                             Download CV
                         </a>
                     </div>
